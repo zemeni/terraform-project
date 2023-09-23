@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt install git
+    if throws unmet dependencies -> apt --fix broken install
+    sudo apt install git
+git --version
+###  configure git #########
+git config --global user.name "Babu"
+git config --global user.email "babu@..."
+
+### to see git config ####
+git config --list
+
+### integrate git with github ###
+create repo in github
+git clone repo_url (https)
+git remote set-url origin https://<token>@github.com/zemeni/terraform-project
+git  -> add, commit , push origin main
